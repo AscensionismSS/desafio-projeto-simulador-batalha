@@ -1,6 +1,7 @@
 local player = {}
 
 player.name = "Astard"
+player.class = "Warrior"
 player.maxHealth = 10
 player.health = 10
 player.attack = 4

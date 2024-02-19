@@ -1,6 +1,7 @@
 local creature = {}
 
 creature.name = "Mizravia"
+creature.class = "Warrior, Undead"
 creature.maxHealth = 50
 creature.health = 50
 creature.attack = 2
