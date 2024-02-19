@@ -1,6 +1,15 @@
 os.execute("chcp 65001")
 os.execute("clear")
 
+
+
+--dependencies
+
+local player = require("./definitions/player")
+local creature = require("./definitions/creature")
+
+
+
 print([[
         +====================================================================+
         +                    +++++++++++++++++++++++++++++++                 +
@@ -34,5 +43,4 @@ print([[
         ]]);
 
 
-
-         
+ local boss = creature    
